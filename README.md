@@ -20,6 +20,9 @@
 ### Step 4: Send message
  ##### send some messages for topic test
  > bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+### Step 5: Start a consumer
+ ##### Kafka command line consumer
+ > bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
 
 
   
