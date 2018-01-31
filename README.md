@@ -7,9 +7,9 @@ Download the 1.0.0 release and un-tar it.
  > cd kafka_2.11-1.0.0
  
 Step 2: Start the server
-  # Zookeeper
+  ##### Zookeeper
   > bin/zookeeper-server-start.sh config/zookeeper.properties
-  # Kafka-server
+  ##### Kafka-server
   > bin/kafka-server-start.sh config/server.properties
 
   
