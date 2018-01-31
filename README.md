@@ -15,8 +15,6 @@
 ### Step 3: Create a topic
  ##### create a topic named "test"
  > bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
- ##### create a topic named "test"
- > bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
  ##### list created  topics
  > bin/kafka-topics.sh --list --zookeeper localhost:2181
 
